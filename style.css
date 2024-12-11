@@ -283,7 +283,6 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  width: 1000px;
 }
 
 .about-containers,
@@ -310,6 +309,7 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
   box-shadow: rgb(184, 189, 194) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 500px;
 }
 .section-container {
   gap: 4rem;
