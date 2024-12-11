@@ -309,9 +309,8 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  box-shadow: rgb(238, 242, 245) 5px 5px 5px 0px inset, rgba(153, 152, 152, 0.5) -5px -3px 6px 1px inset;
+  box-shadow: rgb(184, 189, 194) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-
 .section-container {
   gap: 4rem;
   height: 80%;
