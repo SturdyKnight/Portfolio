@@ -1,4 +1,11 @@
 /* GENERAL */
+@font-face {
+  font-family: 'Typedeer Mono';
+  src: url('assets/type-monostamp.ttf') format('truetype'),
+       url('assets/type-mono.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -276,6 +283,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  width: 1000px;
 }
 
 .about-containers,
@@ -301,6 +309,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  box-shadow: rgb(238, 242, 245) 5px 5px 5px 0px inset, rgba(153, 152, 152, 0.5) -5px -3px 6px 1px inset;
 }
 
 .section-container {
@@ -439,10 +448,14 @@ footer p {
 }
 
 #typedtext{
-  font-family: 'Waiting for the Sunrise', cursive; 
+  font-family: 'Typedeer Mono'; 
   font-size:20px; 
   margin: 10px 50px; 
   letter-spacing: 6px; 
   font-weight: bold;
   color:  rgb(85, 85, 85);
+}
+
+.highlight {
+  color: #3849a8; /* Or any desired color */
 }
