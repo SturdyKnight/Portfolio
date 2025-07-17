@@ -12,14 +12,17 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* Add this to prevent overflow from padding */
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 p {
